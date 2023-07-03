@@ -1,0 +1,76 @@
+footer{
+    background-color: black;
+    align-items: center;
+    color:aliceblue;
+    text-align: center;
+  }
+  h1{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+ .parent-ul{
+    display: flex;
+    list-style-type: none;
+  }
+  .options{
+    display: flex;
+    list-style-type: none;
+    margin: 10px;
+    flex: 1;
+  }
+  li{
+    flex: 1;
+    margin: 10px;
+    font-size: 17px;
+  }
+.logo{
+    width: 250px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.post-pic{    
+    width: 350px;
+}
+.pop-posts{
+    display: flex;
+}
+.pp-item{
+    flex: 1;
+}
+.footer-div{
+    display: flex;
+}
+.footer-elem{
+    flex: 1;
+}
+body{
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input{
+    width: 300px;
+    height: 30px;
+}
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 14px;
+  }
+  .center-align{
+    align-items: center;
+  }
+  

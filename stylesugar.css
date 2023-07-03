@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.top-bar{
+    background-color: black;
+    color: white;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+li{
+    flex: 1;
+    margin: 30px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-align: end;
+    margin: 30px;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(244, 247, 250);
+}
+.nav-bar{
+    background-color: black;
+}
+.container{
+    background-color: black;
+}
+input{
+    border: 3px solid rgb(68, 67, 67);
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: rgb(65, 62, 62);
+      
+}
+button{
+    background-color: rgb(255, 255, 255) ;
+    border: none;
+    color: black;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .line{
+    width: 10px;
+    background-color: rgb(240, 98, 122);
+  }
+  footer{
+    background-color: black;
+    align-items: center;
+    color:aliceblue;
+    text-align: center;
+  }
+  h2{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .bestsellers{
+    display: flex;
+    background-image: linear-gradient(rgb(38, 38, 107),black);
+  }
+  .bs-img{
+    flex: 1;
+    width: 300px;
+    height: 300px;
+    border: 3px solid grey;
+    border-radius: 6px;
+  }
+  .gifting{
+    display: flex;
+    background-image: linear-gradient(rgb(189, 81, 99),purple);
+  }
+  .this-or-that{
+    display: flex;
+    background-image: linear-gradient(rgb(106, 16, 16),black);
+  }
+  .skincare-basics{
+    display: flex;
+    background-image: linear-gradient(rgb(6, 59, 6),rgb(61, 43, 43));
+  }
+  .merch-station
+  {
+    display: flex;
+    background-image: linear-gradient(rgb(128, 10, 10),black);
+  }
+  .giftng-img{
+    flex: 1;
+    width: 300px;
+    height: 300px;
+    border: 3px solid grey;
+    border-radius: 6px;
+
+  }
+  .tt-img{
+    flex: 1;
+    width: 300px;
+    height: 300px;
+    border: 3px solid grey;
+    border-radius: 6px;
+
+  }
+  .sc-img{
+    flex: 1;
+    width: 300px;
+    height: 300px;
+    border: 3px solid grey;
+    border-radius: 6px;
+
+  }
+  .merch-img{
+    flex: 1;
+    width: 300px;
+    height: 300px;
+    border: 3px solid grey;
+    border-radius: 6px;
+
+  }
+ 
+  h3{
+    font-size: 40px;
+    margin: 50px;
+  }
+  .footer-div{
+    display: flex;
+  }
+.footer-elem{
+  flex: 1;
+  margin: 40px;
+}
+.white-text{
+  color: white;
+}
+.grey-text{
+  color: grey;
+}
+.fa{
+  background-color: rgb(55, 55, 55);
+  color: black;
+  padding: 20px;  
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;
+    border-radius: 50%;
+
+}
+.sit{
+  font-size: 20px;
+}
+.stay-in-touch{
+  align-items: center;
+  margin-left: 35%;
+}
+.login-div{
+  align-items: center;
+  margin-left: 35%;
+}
+.makeup-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+}
+
+
+.mc-img{
+  grid-template-columns: auto;
+  
+  width: 300px;
+  height: 300px;
+  border: 3px solid grey;
+  border-radius: 6px;
+  margin: 20px;
+
+}
+label{
+  margin-left: 30px;
+}
